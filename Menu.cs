@@ -70,7 +70,7 @@ namespace FootballTeamRegistration
                             var numberToEdit = Console.ReadLine()!;
                             Console.Write("Enter adress: ");
                             var adressToEdit = Console.ReadLine()!;
-                            footballRegistrationManager.UpdatePlayer(nameToEdit, numberToEdit, adressToEdit);
+                            footballRegistrationManager.UpdatePlayer(numberToEdit, nameToEdit, adressToEdit);
                             break;
                         case 4:
                             Console.Write("Enter the top or short number of the player you want to search: ");

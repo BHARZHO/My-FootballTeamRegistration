@@ -59,7 +59,7 @@ namespace FootballTeamRegistration
         {
             int footballRegistrationCount = FootballRegistrations.Count;
 
-            Console.WriteLine("You have" + "player".ToQuantity(footballRegistrationCount));
+            Console.WriteLine("You have " + "player".ToQuantity(footballRegistrationCount));
 
             if (footballRegistrationCount == 0)
             {
@@ -100,6 +100,7 @@ namespace FootballTeamRegistration
                 Console.WriteLine("Player does not exist!");
                 return;
             }
+
             footballRegistration.Name = name;
             footballRegistration.Adress = adress;
             Console.WriteLine("Player updated sucessfully.");
